@@ -1,5 +1,8 @@
 name: Daily Auto Commit
 
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: '50 9 * * *'   # Runs daily at 09:30 UTC
